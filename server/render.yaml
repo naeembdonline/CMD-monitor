@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: fiverr-monitor-server
+    env: python
+    buildCommand: pip install -r requirements_server.txt
+    startCommand: gunicorn --worker-class eventlet -w 1 --bind 0.0.0.0:$PORT server:app
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.10.0

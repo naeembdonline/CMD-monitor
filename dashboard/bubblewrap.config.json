@@ -1,0 +1,17 @@
+{
+  "manifestId": "https://your-app.onrender.com/manifest.json",
+  "packageId": "com.fiverr.monitor",
+  "appVersionName": "1.0.0",
+  "appVersionCode": 1,
+  "shortcuts": [],
+  "displayMode": "standalone",
+  "orientation": "portrait",
+  "themeColor": "#1dbf73",
+  "backgroundColor": "#0e0e0e",
+  "iconUrl": "https://www.fiverr.com/favicon.ico",
+  "maskableIconUrl": "https://www.fiverr.com/favicon.ico",
+  "enableNotifications": true,
+  "features": [],
+  "splashScreenUrl": null,
+  "fallbackIconUrl": "https://www.fiverr.com/favicon.ico"
+}
